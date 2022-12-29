@@ -1,0 +1,12 @@
+useEffect
+
+아래코드는 and를 사용해서 글자길이가 5이상일 경우 console에 찍히는 것입니다.
+
+예를 들면, search ㅁㅁㅁㅁㅁ는 나오지 않지만 search ㅁㅁㅁㅁㅁㅁ 는 결과가 나온다.
+
+이렇게 되면 내가 원하는 글자부터 나오게 할 수 있다. useEffect를 통해 keyword에만 효과를 내게 하였다. 
+clean up
+
+학습 내용 중 아래 코드에서 삼항연산자를 위해 prev => !prev로 작성된 부분이 있으며, 
+show 버튼을 누르면 hello가 보이고 hide할때는 hello가 사라지게 하는 것이다. 
+hello가 처음에 보이지 않고 showing을 하면 보이고 아니면 다시 hide가 되는 것을 확인 할 수 있다. 
